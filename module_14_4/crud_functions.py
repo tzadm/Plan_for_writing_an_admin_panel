@@ -32,6 +32,3 @@ def get_all_products():
 #                    (f'Продукт {i + 1}', f'Описание {i + 1}', (i+1) * 100))
 # connection_telegram_db.commit()
 # connection_telegram_db.close()
-
-
-print(get_all_products())
